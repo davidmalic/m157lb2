@@ -78,8 +78,8 @@ ___
 | -------------|----------|
 | Der Raspberry Pi ist im Netz sichtbar  | :heavy_check_mark: |        
 | Den Raspberry Pi ist als Router in der Wlan-Leiste sichtbar  | :heavy_check_mark: |		     
-| Verbindung herstellen mit dem Rasperry Pi Router ist möglich  | :heavy_check_mark: | 		                                               | Internetverbindung ist vorhanden? | :heavy_check_mark: |                    														  														                                                        
-
+| Verbindung herstellen mit dem Rasperry Pi Router ist möglich  | :heavy_check_mark: |                                      
+| Internetverbindung ist vorhanden? | :heavy_check_mark: |          
 ___
 
 06 - Übergabe an den Betrieb
