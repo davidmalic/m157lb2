@@ -7,11 +7,11 @@ Diese Dokumentation wurde im Rahmen des Moduls 157 erarbeitet und zeigt alle Sch
 
 ### Inhaltsverzeichnis
 
-[01 - Autoren, Versionierung](#01---Autoren,-Versionierung]
+[01 - Autoren, Versionierung](#01---Autoren,-Versionierung)
 
 [02 - Funktion](#Funktion) 
  
-[03 - Benötigte Hard- und Software](#03---Benötigte Hard--und-Software]
+[03 - Benötigte Hard- und Software](#03---Benötigte Hard--und-Software)
    
 [04 - Installationsanleitung](#04---Installationsanleitung)
 
