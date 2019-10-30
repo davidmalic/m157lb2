@@ -1,28 +1,27 @@
 Servcie-Design für Werkstattauftrag
 ======
 
-Diese Repository beeinhaltet die Dokumentation für die Lehrperson
 
 ### Einleitung
-Diese Dokumentation wurde von David Malic im Rahmen des Moduls 157 erarbeitet und zeigt alle Schritte auf, die es braucht um die LB2-Kriterien zu erfüllen.
+Diese Dokumentation wurde im Rahmen des Moduls 157 erarbeitet und zeigt alle Schritte auf, die es braucht um die LB2-Kriterien zu erfüllen.
 
 ### Inhaltsverzeichnis
 
-* 01 - Autoren, Versionierung
+[01 - Autoren, Versionierung](#01---Autoren,-Versionierung]
 
-* 02 - Funktion 
+[02 - Funktion](#Funktion) 
  
-* 03 - Benoetigte Hard- und Software
+[03 - Benötigte Hard- und Software](#03---Benötigte Hard--und-Software]
    
-* 04 - Installationsanleitung
+[04 - Installationsanleitung](#04---Installationsanleitung)
 
-* 05 - Testing
+[05 - Testing](*05---Testing)
 
-* 06 - Übergabe an den Betrieb
+[06 - Übergabe an den Betrieb](#06---Übergabe an den Betrieb)
  
-* 07 - Quellen
+[07 - Quellen](#07---Quellen)
 
-* 08 - Reflexion
+
   
 ___
 
@@ -33,9 +32,7 @@ ___
 
 | Autoren      | Datum    | Version  |                                
 | -------------|----------|----------|
-| David Malic  | 30.10.19 |   0.1      |
-| David Malic  | 		  |		     |
-| David Malic  |          | 		 |
+| David Malic  | 30.10.19 |   0.1    |
 ___
 
 02 - Funktion 
@@ -85,7 +82,7 @@ ___
 06 - Übergabe an den Betrieb
 ======
 
-### text
+### Seperates Dokument (Übergabeprotokoll)
 
 
 
@@ -105,9 +102,4 @@ https://www.randombrick.de/raspberry-pi-als-wlan-access-point-nutzen/
 https://www.security-blog.eu/raspberry-pi-als-accesspoint-einrichten/
 
 ___
-
-08 - Reflexion
-======
-
-Dieses Projekt war sehr lehrreich. Ich hatte gegen den Schluss ein bisschen Zeitdruck da ich die Zeit nicht optimal geplant habe. Mit dem Endresultat bin ich aber trotzdem zufrieden.  
-___
+ 
