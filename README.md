@@ -8,7 +8,7 @@ Diese Dokumentation wurde von David Malic im Rahmen des Moduls 157 erarbeitet un
 
 ### Inhaltsverzeichnis
 
-* 01 - Autoren, Versionierung
+[01 - Autoren, Versionierung](#01 - Autoren, Versionierung)
 
 * 02 - Funktion 
  
@@ -49,7 +49,10 @@ ___
 ======
 
 ### Hardware
-
+-   Raspberry Pi 3 (vorherige Modelle sind nicht kompatibel)
+-   Micro USB Netzteil 
+-   Micro SD Karte 
+-   Netzwerk- und Internetverbindung
 
 ### Software
 
