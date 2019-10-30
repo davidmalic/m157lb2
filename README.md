@@ -8,7 +8,7 @@ Diese Dokumentation wurde von David Malic im Rahmen des Moduls 157 erarbeitet un
 
 ### Inhaltsverzeichnis
 
-[01 - Autoren, Versionierung](#01 - Autoren, Versionierung)
+- [01 - Autoren, Versionierung](#01 - Autoren, Versionierung)
 
 * 02 - Funktion 
  
