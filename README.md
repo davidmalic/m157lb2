@@ -17,11 +17,13 @@ Diese Dokumentation wurde von David Malic im Rahmen des Moduls 157 erarbeitet un
 * 04 - Installationsanleitung
 
 * 05 - Testing
-  * Testprotokoll
-* K6
-  * Uebergabe an den Betrieb
-* K7
-  * Quellen
+
+* 06 - Übergabe an den Betrieb
+ 
+* 07 - Quellen
+
+* 08 - Reflexion
+  
 ___
 
 01 - Autoren, Versionierung
@@ -51,16 +53,16 @@ ___
 
 ### Software
 
-#### Entscheidungsmatrix
+###### Entscheidungsmatrix
 
 ___
 
 04 - Installationsanleitung
 ======
 
-#### Schritt 1
+### Schritt 1
 
-#### Schritt 2
+### Schritt 2
 
 ___
 
