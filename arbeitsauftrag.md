@@ -62,11 +62,13 @@ ___
 ======
 
 ### Commands für Überprüfung
+iw dev wlan0 info
+iw dev wlan0 get power_save
 ___
 
 06 - Error-Handling
 ======
 
 ### Wie haben wir die Fehler korriegiert, wie sind wir vorgegangen
-
+sudo hostapd -dd /etc/hostapd/hostapd.conf
 ___
