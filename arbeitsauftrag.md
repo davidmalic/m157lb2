@@ -12,7 +12,7 @@ Diese Dokumentation wurde im Rahmen des Moduls 157 erarbeitet und zeigt alle Sch
  
 * 03 - Materialliste
    
-* 04 - Installationsanleitung
+[04 - Installationsanleitung](#04---installationsanleitung)
 
 * 05 - Qualitätskontrolle
 
