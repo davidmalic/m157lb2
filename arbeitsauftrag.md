@@ -1,8 +1,6 @@
 Arbeitsauftrag für Werkstattauftrag 
 ======
 
-Diese Repository beeinhaltet die Dokumentation für die Schüler
-
 ### Einleitung
 Diese Dokumentation wurde von David Malic im Rahmen des Moduls 157 erarbeitet und zeigt alle Schritte auf, die es braucht um die LB2-Kriterien zu erfüllen.
 
