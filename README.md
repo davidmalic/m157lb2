@@ -22,7 +22,7 @@ Diese Dokumentation wurde von David Malic im Rahmen des Moduls 157 erarbeitet un
  
 * 07 - Quellen
 
-* 08 - Reflexion(#Reflexion)
+[08 - Reflexion](#08-Reflexion
   
 ___
 
@@ -106,7 +106,7 @@ https://www.security-blog.eu/raspberry-pi-als-accesspoint-einrichten/
 
 ___
 
-Reflexion
+08 - Reflexion
 ======
 
 Dieses Projekt war sehr lehrreich. Ich hatte gegen den Schluss ein bisschen Zeitdruck da ich die Zeit nicht optimal geplant habe. Mit dem Endresultat bin ich aber trotzdem zufrieden.  
