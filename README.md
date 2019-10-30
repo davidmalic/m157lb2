@@ -94,7 +94,15 @@ ___
 07 - Quellen
 ======
 
-text
+# https://www.libe.net/raspberry-als-accesspoint
+
+# https://www.craftsmany.net/raspberry-pi-3-wifi-hotspot-access-point-erstellen/
+
+# https://developer-blog.net/raspberry-pi-als-wlan-access-point-einrichten/
+
+# https://www.randombrick.de/raspberry-pi-als-wlan-access-point-nutzen/
+
+# https://www.security-blog.eu/raspberry-pi-als-accesspoint-einrichten/
 
 ___
 
