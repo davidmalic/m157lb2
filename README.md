@@ -6,7 +6,7 @@ Diese Repository beeinhaltet die Dokumentation für die Lehrperson
 ### Einleitung
 Diese Dokumentation wurde von David Malic im Rahmen des Moduls 157 erarbeitet und zeigt alle Schritte auf, die es braucht um die LB2-Kriterien zu erfüllen.
 
-## Inhaltsverzeichnis
+### Inhaltsverzeichnis
 
 * K1
   * Autoren, Versionierung des Dokumentes 
@@ -27,11 +27,11 @@ ___
 K1
 ======
 
-## Autoren, Versionierung des Dokumentes 
+### Autoren, Versionierung des Dokumentes 
 
 | Autoren      | Datum    | Version  |                                
 | -------------|----------|----------|
-| David Malic  | 30.10.19 | 0.1      |
+| David Malic  | 30.10.19 |   0.1      |
 | David Malic  | 		  |		     |
 | David Malic  |          | 		 |
 
@@ -39,27 +39,27 @@ K1
 K2
 ======
 
-## Funktion des Services
+### Funktion des Services
 
 
 
 K3
 ======
 
-## Benoetigte Hard- und Software 
+### Benoetigte Hard- und Software 
 
 
 K4
 ======
 
-##  Installationsanleitung
+###  Installationsanleitung
 
 
 
 K5
 ======
 
-## Testing  
+### Testing  
 
 | Testing                                                                                                                               | Resultat                                                                                                               |
 | -------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -72,7 +72,7 @@ K5
 K6
 ======
 
-## Uebergabe an den Betrieb
+### Uebergabe an den Betrieb
 
 text
 
@@ -80,7 +80,7 @@ text
 K7
 ======
 
-## Quellen
+### Quellen
 
 text
 
@@ -88,6 +88,6 @@ text
 K8
 ======
 
-## Reflexion
+### Reflexion
 
 Dieses Projekt war sehr lehrreich. Ich hatte gegen den Schluss ein bisschen Zeitdruck da ich die Zeit nicht optimal geplant habe. Mit dem Endresultat bin ich aber trotzdem zufrieden.  
