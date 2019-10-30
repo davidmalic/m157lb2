@@ -11,13 +11,13 @@ Diese Dokumentation wurde im Rahmen des Moduls 157 erarbeitet und zeigt alle Sch
 
 [02 - Funktion](#Funktion) 
  
-[03 - Benötigte Hard- und Software](#03---Benötigte Hard--und-Software)
+[03 - Benötigte Hard- und Software](#03---benötigte-hard--und-software)
    
 [04 - Installationsanleitung](#04---Installationsanleitung)
 
 [05 - Testing](*05---Testing)
 
-[06 - Übergabe an den Betrieb](#06---Übergabe an den Betrieb)
+[06 - Übergabe an den Betrieb](#06---übergabe-an-den-betrieb)
  
 [07 - Quellen](#07---Quellen)
 
