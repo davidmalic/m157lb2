@@ -34,27 +34,28 @@ K1
 | David Malic  | 30.10.19 |   0.1      |
 | David Malic  | 		  |		     |
 | David Malic  |          | 		 |
-
+___
 
 K2
 ======
 
 ### Funktion des Services
 
-
+___
 
 K3
 ======
 
 ### Benoetigte Hard- und Software 
 
+___
 
 K4
 ======
 
 ###  Installationsanleitung
 
-
+___
 
 K5
 ======
@@ -65,9 +66,7 @@ K5
 | -------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | text                                                                        															 | text   														                                                         |
 
-
-
-
+___
 
 K6
 ======
@@ -76,6 +75,7 @@ K6
 
 text
 
+___
 
 K7
 ======
@@ -84,6 +84,7 @@ K7
 
 text
 
+___
 
 K8
 ======
@@ -91,3 +92,4 @@ K8
 ### Reflexion
 
 Dieses Projekt war sehr lehrreich. Ich hatte gegen den Schluss ein bisschen Zeitdruck da ich die Zeit nicht optimal geplant habe. Mit dem Endresultat bin ich aber trotzdem zufrieden.  
+___
