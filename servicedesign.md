@@ -39,7 +39,7 @@ ___
 ======
 
 ### Funktion des Services
-
+Der Rasperry Pi 3 wird so konfiguriert das er als Router fungiert.
 ___
 
 03 - Benötigte Hard- und Software
@@ -50,10 +50,15 @@ ___
 -   Micro USB Netzteil 
 -   Micro SD Karte 
 -   Netzwerk- und Internetverbindung
+-   Zwei LAN Kabel
+-   Monitor, Maus und Tastatur
+-   HDMI-, Display-Port-, oder VGA kabel
 
 ### Software
+Hostapd
 
-###### Entscheidungsmatrix
+### Entscheidungsmatrix
+![software](https://user-images.githubusercontent.com/47855918/67899501-b2676c80-fb62-11e9-94a1-779f72806b2e.png)
 
 ___
 
