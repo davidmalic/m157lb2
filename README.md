@@ -3,7 +3,7 @@ M157 - LB2
 
 Diese Repository beeinhaltet die Dokumentation für die Lehrperson
 
-## Einleitung
+### Einleitung
 Diese Dokumentation wurde von David Malic im Rahmen des Moduls 157 erarbeitet und zeigt alle Schritte auf, die es braucht um die LB2-Kriterien zu erfüllen.
 
 ## Inhaltsverzeichnis
@@ -29,15 +29,12 @@ K1
 
 ## Autoren, Versionierung des Dokumentes 
 
-| Autoren     | Beschreibung     | Version                                   |
-| ------------ | ----------------------------------------------------		 |
-| David Malic  | Führt ein Befehl in einem neuen Container aus      |		 |
-| David Malic | Startet einen oder mehrere gestoppte Container     |		 |
-| David Malic  | Stoppt einen oder mehrere laufende ontainer        |  		 |
-| David Malic | Erstellt ein Image aus einem Docker-File           |		 |
-| David Malic  | Ladet ein Image aus der Registry                   |		 | 
-| David Malic  | Ladet ein Image in die Registry hoch               | 		 |
-| David Malic | Führ einen Befehl in einem laufenden Container aus |  		 |
+| Autoren      | Datum    | Version  |                                
+| -------------|----------|----------|
+| David Malic  | 30.10.19 | 0.1      |
+| David Malic  | 		  |		     |
+| David Malic  |          | 		 |
+
 
 K2
 ======
