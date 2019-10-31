@@ -50,13 +50,16 @@ ___
 ======
 
 ### Hardware
--   Raspberry Pi 3 (vorherige Modelle sind nicht kompatibel)
--   Micro USB Netzteil 
--   Micro SD Karte 
--   Netzwerk- und Internetverbindung
+- Raspberry Pi 3 (vorherige Modelle sind nicht kompatibel)
+- Micro USB Netzteil
+- Micro SD Karte (mind. 4GB)
+- Netzwerk- und Internetverbindung
+- Zwei LAN Kabel
+- Monitor, Maus und Tastatur
 
 ### Software
 Hostapd
+Noobs OS
 
 ###### Entscheidungsmatrix
 ![software](https://user-images.githubusercontent.com/47855918/67899501-b2676c80-fb62-11e9-94a1-779f72806b2e.png)
