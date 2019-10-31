@@ -56,15 +56,16 @@ ___
 ======
 
 ### Hardware
--   Raspberry Pi 3 (vorherige Modelle sind nicht kompatibel)
--   Micro USB Netzteil 
--   Micro SD Karte (mind. 4GB)
--   Netzwerk- und Internetverbindung
--   Zwei LAN Kabel
--   Monitor, Maus und Tastatur
+- Raspberry Pi 3 (vorherige Modelle sind nicht kompatibel)
+- Micro USB Netzteil
+- Micro SD Karte (mind. 4GB)
+- Netzwerk- und Internetverbindung
+- Zwei LAN Kabel
+- Monitor, Maus und Tastatur
 
 ### Software
-Hostapd
+Hostapd  
+Noobs OS
 
 
 ### Entscheidungsmatrix
@@ -77,7 +78,6 @@ ___
 
 ### Schritt 1
 
-### Schritt 2
 
 ___
 
