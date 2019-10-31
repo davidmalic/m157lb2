@@ -122,7 +122,7 @@ bridge_ports eth0 wlan0 # build bridge
 bridge_fd 0 # no forwarding delay
 bridge_stp off # disable Spanning Tree Protocol
 
-#### Schritt 6
+### Schritt 6
 Richten sie den Raspberry Pi so ein, dass er den AccessPoint automatisch startet.
 
 Nachdem wir uns über Putty verbunden haben, sollten zuerst mal alle vorhanden Updates installiert werden:  
