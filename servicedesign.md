@@ -33,13 +33,23 @@ ___
 | Autoren      | Datum    | Version  |                                
 | -------------|----------|----------|
 | David Malic  | 30.10.19 |   0.1    |
+| David Malic  | 31.10.19 | 0.2      |
 ___
 
 02 - Funktion 
 ======
 
 ### Funktion des Services
-Der Rasperry Pi 3 wird so konfiguriert das er als Router fungiert.
+
+Es wird ein Raspberry Pi der Version 3 mit der aktuellsten Version von Linux Debian installiert. Das Ziel ist es, den Raspberry Pi so zu programmieren, damit er als Funktionsfähiger Accesspoint eingesetzt werden kann.
+Sobald der Raspberry Pi aufgesetzt ist, muss er konfiguriert werden. Zuerst wird das Betriebssystem auf den aktuellsten Stand gebracht. Dann nehmen wir uns die Netzwerkkonfiguration vor. Nach diesen Arbeitsschritten werden wir den Raspberry Pi als einen Accesspoint umkonfigurieren, mit Hilfe der Installationsanleitung. 
+
+| Tätigkeit | Zeit |
+|----------------------|--------|
+| Raspberry Pi aufsetzen | 45min |
+| Updates installieren | 30min |
+| Netzwerkkonfiguration | 30min | 
+| Konfiguration | 1.5h |
 ___
 
 03 - Benötigte Hard- und Software
@@ -48,14 +58,14 @@ ___
 ### Hardware
 -   Raspberry Pi 3 (vorherige Modelle sind nicht kompatibel)
 -   Micro USB Netzteil 
--   Micro SD Karte 
+-   Micro SD Karte (mind. 4GB)
 -   Netzwerk- und Internetverbindung
 -   Zwei LAN Kabel
 -   Monitor, Maus und Tastatur
--   HDMI-, Display-Port-, oder VGA kabel
 
 ### Software
 Hostapd
+
 
 ### Entscheidungsmatrix
 ![software](https://user-images.githubusercontent.com/47855918/67899501-b2676c80-fb62-11e9-94a1-779f72806b2e.png)
