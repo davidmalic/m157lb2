@@ -67,21 +67,25 @@ ___
 
 ### Schritt 1
 
+Nachdem wir uns über Putty verbunden haben, sollten zuerst mal alle vorhanden Updates installiert werden:  
+sudo apt-get update
+sudo apt-get upgrade
 ### Schritt 2
 ___
 
 05 - Qualitätskotrolle
 ======
 
+Die Funktionalität, der Raspberry Pi Installation kann so getestet werden, indem man auf einem anderen WLAN fähigem Gerät  in der Nähe des Raspberry Pi’s, das WLAN-Netzwerk gesucht wird und verbunden wird.
+
 ### Commands für Überprüfung
 iw dev wlan0 info  
-
 iw dev wlan0 get power_save
 ___
 
 06 - Error-Handling
 ======
 
-### Wie haben wir die Fehler korriegiert, wie sind wir vorgegangen
+hostapd kann auch mit folgendem Befehl gestartet werden. Im Terminal werden dabei Informationen zum Start, bzw. zu den verbundenen Geräten angezeigt:  
 sudo hostapd -dd /etc/hostapd/hostapd.conf
 ___
