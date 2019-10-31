@@ -69,11 +69,66 @@ ___
 ======
 
 ### Schritt 1
+Damit wir mit einen Accesspoint auf einem Raspberry installieren kann benöntigt man die Software Hostapd und bridge-utils. 
+
+### Schritt 2
+Sobald die Software installiert ist werden wir eine Konfigdatei namens hostapd.conf anlegen unter sudo nano /etc/hostapd/
+
+### Schritt 3 
+Nun muss die Konfig-Datei überschrieben werden. Folgende Konfiguration muss eingesezt werden, und die SSID und das Passwort geändert werden:  
+ssid=RaspberryAP
+wpa_passphrase=WLANPASSWORT
+
+driver=nl80211
+country_code=CH
+ieee80211d=1
+hw_mode=g
+beacon_int=100
+channel=9
+ieee80211n=1
+ht_capab=[SHORT-GI-20][DSSS_CCK-40]
+interface=wlan0
+ap_isolate=1
+bss_load_update_period=60
+disassoc_low_ack=1
+preamble=1
+wmm_enabled=1
+ignore_broadcast_ssid=0
+uapsd_advertisement_enabled=1
+auth_algs=1
+wpa=2
+wpa_pairwise=CCMP
+bridge=br0
+wpa_key_mgmt=WPA-PSK
+okc=0
+disable_pmksa_caching=1
+macaddr_acl=0
+
+### Schritt 4
+Aus Sicherheitsgründen setzen wir die Berechtigung so, das nur der Owner berechtigung auf Lesen und verändern hat.
+
+### Schritt 5
+Nun wird die Netzwerkkonfiguration festgelegt. Unter Interfaces wird nun die WLAN konfiguraion vorgenommen:
+##### WLAN
+auto wlan0
+allow-hotplug wlan0
+iface wlan0 inet manual
+wireless-power off
+
+##### Netzwerkbrücke
+auto br0
+iface br0 inet dhcp
+bridge_ports eth0 wlan0 # build bridge
+bridge_fd 0 # no forwarding delay
+bridge_stp off # disable Spanning Tree Protocol
+
+#### Schritt 6
+Richten sie den Raspberry Pi so ein, dass er den AccessPoint automatisch startet.
 
 Nachdem wir uns über Putty verbunden haben, sollten zuerst mal alle vorhanden Updates installiert werden:  
 sudo apt-get update
 sudo apt-get upgrade
-### Schritt 2
+
 ___
 
 05 - Qualitätskotrolle
