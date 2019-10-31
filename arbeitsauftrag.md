@@ -58,10 +58,10 @@ ___
 - Monitor, Maus und Tastatur
 
 ### Software
-Hostapd
+Hostapd  
 Noobs OS
 
-###### Entscheidungsmatrix
+#### Entscheidungsmatrix
 ![software](https://user-images.githubusercontent.com/47855918/67899501-b2676c80-fb62-11e9-94a1-779f72806b2e.png)
 ___
 
