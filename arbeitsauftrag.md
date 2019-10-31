@@ -32,6 +32,17 @@ ___
 02 - Einführung
 ======
 
+Es wird ein Raspberry Pi der Version 3 mit der aktuellsten Version von Linux Debian installiert. Das Ziel ist es, den Raspberry Pi so zu programmieren, damit er als Funktionsfähiger Accesspoint eingesetzt werden kann.
+Sobald der Raspberry Pi aufgesetzt ist, muss er konfiguriert werden. Zuerst wird das Betriebssystem auf den aktuellsten Stand gebracht. Dann nehmen wir uns die Netzwerkkonfiguration vor. Nach diesen Arbeitsschritten werden wir den Raspberry Pi als einen Accesspoint umkonfigurieren, mit Hilfe der Installationsanleitung. 
+
+
+| Raspberry Pi aufsetzen | 45min |                                 
+| Updates installieren | 30min |
+| David Malic  | 30.10.19 | 
+	
+
+Netzwerkkonfiguration 	30min
+Software Installation / Konfiguration	1.5h
 
 ___
 
