@@ -73,7 +73,8 @@ ___
 ======
 
 ### Commands für Überprüfung
-iw dev wlan0 info
+iw dev wlan0 info  
+
 iw dev wlan0 get power_save
 ___
 
