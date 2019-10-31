@@ -27,6 +27,7 @@ ___
 | Autoren      | Datum    | Version  |                                
 | -------------|----------|----------|
 | David Malic  | 30.10.19 |    0.1   |
+| David Malic  | 31.10.19 |    0.2   |
 ___
 
 02 - Einführung
