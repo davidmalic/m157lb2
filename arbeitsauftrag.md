@@ -28,6 +28,7 @@ ___
 | -------------|----------|----------|
 | David Malic  | 30.10.19 |    0.1   |
 | David Malic  | 31.10.19 |    0.2   |
+| David Malic  | 04.11.19 |    0.3   |
 ___
 
 02 - Einführung
@@ -117,8 +118,9 @@ auto wlan0
 allow-hotplug wlan0
 iface wlan0 inet manual
 wireless-power off
-
+```
 ##### Netzwerkbrücke
+```
 auto br0
 iface br0 inet dhcp
 bridge_ports eth0 wlan0 # build bridge
