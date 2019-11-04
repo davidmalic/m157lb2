@@ -75,7 +75,8 @@ Damit wir mit einen Accesspoint auf einem Raspberry installieren kann benöntigt
 Sobald die Software installiert ist werden wir eine Konfigdatei namens hostapd.conf anlegen unter sudo nano /etc/hostapd/
 
 ### Schritt 3 
-Nun muss die Konfig-Datei überschrieben werden. Folgende Konfiguration muss eingesezt werden, und die SSID und das Passwort geändert werden:  
+Nun muss die Konfig-Datei überschrieben werden. Folgende Konfiguration muss eingesezt werden, und die SSID und das Passwort geändert werden: 
+``` bash
 ssid=RaspberryAP
 wpa_passphrase=WLANPASSWORT
 
@@ -103,6 +104,7 @@ wpa_key_mgmt=WPA-PSK
 okc=0
 disable_pmksa_caching=1
 macaddr_acl=0
+```
 
 ### Schritt 4
 Aus Sicherheitsgründen setzen wir die Berechtigung so, das nur der Owner berechtigung auf Lesen und verändern hat.
@@ -110,6 +112,7 @@ Aus Sicherheitsgründen setzen wir die Berechtigung so, das nur der Owner berech
 ### Schritt 5
 Nun wird die Netzwerkkonfiguration festgelegt. Unter Interfaces wird nun die WLAN konfiguraion vorgenommen:
 ##### WLAN
+``` bash
 auto wlan0
 allow-hotplug wlan0
 iface wlan0 inet manual
@@ -121,14 +124,16 @@ iface br0 inet dhcp
 bridge_ports eth0 wlan0 # build bridge
 bridge_fd 0 # no forwarding delay
 bridge_stp off # disable Spanning Tree Protocol
+```
 
 ### Schritt 6
 Richten sie den Raspberry Pi so ein, dass er den AccessPoint automatisch startet.
 
 Nachdem wir uns über Putty verbunden haben, sollten zuerst mal alle vorhanden Updates installiert werden:  
+```bash
 sudo apt-get update
 sudo apt-get upgrade
-
+```
 ___
 
 05 - Qualitätskotrolle
@@ -137,13 +142,17 @@ ___
 Die Funktionalität, der Raspberry Pi Installation kann so getestet werden, indem man auf einem anderen WLAN fähigem Gerät  in der Nähe des Raspberry Pi’s, das WLAN-Netzwerk gesucht wird und verbunden wird.
 
 ### Commands für Überprüfung
+``` bash
 iw dev wlan0 info  
 iw dev wlan0 get power_save
+```
 ___
 
 06 - Error-Handling
 ======
 
-hostapd kann auch mit folgendem Befehl gestartet werden. Im Terminal werden dabei Informationen zum Start, bzw. zu den verbundenen Geräten angezeigt:  
+hostapd kann auch mit folgendem Befehl gestartet werden. Im Terminal werden dabei Informationen zum Start, bzw. zu den verbundenen Geräten angezeigt: 
+```
 sudo hostapd -dd /etc/hostapd/hostapd.conf
+```
 ___
