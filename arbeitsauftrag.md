@@ -29,6 +29,7 @@ ___
 | David Malic  | 30.10.19 |    0.1   |
 | David Malic  | 31.10.19 |    0.2   |
 | David Malic  | 04.11.19 |    0.3   |
+| David Malic, Gian-luca Dal Pian | 07.11.19 |    1.0   |
 ___
 
 02 - Einführung
