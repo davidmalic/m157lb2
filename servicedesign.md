@@ -34,7 +34,8 @@ ___
 | -------------|----------|----------|
 | David Malic  | 30.10.19 |   0.1    |
 | David Malic  | 31.10.19 |   0.2    |
-| David Malic  | 07.11.19 |   0.3    |
+| David Malic  | 04.11.19 |   0.3    |
+| David Malic, Gian-Luca Dal Pian  | 07.11.19 |   1.0   |    
 ___
 
 02 - Funktion 
@@ -79,11 +80,12 @@ ___
 
 ### Schritt 1
 Als erstes wird der Raspberry Pi auf den neusten stand gebracht und die Access-Point Software installiert.
-''''
+```
 sudo apt-get update
 sudo apt-get upgrade
-'''''
+
 sudo apt-get install hostapd bridge-utils
+```
 
 Schritt 2:
 Nun wird die Konfigurations Datei des Access-Points angepasst. Dazu welchseln wir in das verzeichniss: 
