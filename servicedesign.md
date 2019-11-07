@@ -156,17 +156,25 @@ bridge_stp off # disable Spanning Tree Protocol
 
 ### Schritt 5:
 
-Zu guteretzt richten wir noch eine automatischen Start des AccessPoint ein, dazu wechseln wir ins folgende Verzeichniss: 
+Zu guter letzt richten wir noch eine automatischen Start des AccessPoint ein, dazu wechseln wir ins folgende Verzeichnis: 
 
 ```
 sudo nano /etc/default/hostapd
 ```
 
-Und fügen folgende Textsequenz ein:
+Und fügen folgenden Befehl ein:
 
 ```
 RUN_DAEMON=yes
 DAEMON_CONF="/etc/hostapd/hostapd.conf"
+```
+
+
+### gleichzeitig 2 Hotspots
+Zusätzlich wollte ich einen 2ten Adapter, also einen zusätzlichen USB-WLAN-Stick als Hotspot verwenden. In einer einzelnen hostapd-Konfig habe ich das nicht zum Laufen bekommen, daher habe ich einfach eine zweite hostapd.conf Datei erstellt und lasse diese beim Starten des Raspberry mittels crontab  aktivieren:
+```
+sudo crontab -e
+@reboot sudo hostapd -d /etc/hostapd/hostapd2.conf
 ```
 ___
 
