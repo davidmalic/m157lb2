@@ -33,7 +33,7 @@ ___
 | Autoren      | Datum    | Version  |                                
 | -------------|----------|----------|
 | David Malic  | 30.10.19 |   0.1    |
-| David Malic  | 31.10.19 | 0.2      |
+| David Malic  | 31.10.19 |   0.2    |
 ___
 
 02 - Funktion 
@@ -88,10 +88,11 @@ ___
 
 | Beschreibung     | Status |                               
 | -------------|----------|
-| Der Raspberry Pi ist im Netz sichtbar  | :heavy_check_mark: |        
-| Den Raspberry Pi ist als Router in der Wlan-Leiste sichtbar  | :heavy_check_mark: |		     
-| Verbindung herstellen mit dem Rasperry Pi Router ist möglich  | :heavy_check_mark: |                                      
-| Internetverbindung ist vorhanden? | :heavy_check_mark: |          
+| Der Raspberry Pi ist pingbar  | :heavy_check_mark: |        
+| Den Raspberry Pi ist als Access Point in der Wlan-Leiste sichtbar  | :heavy_check_mark: |		     
+| Verbindung herstellen mit dem Rasperry Pi Access Point ist möglich  | :heavy_check_mark: |                                      
+| Durch den Raspberry Pi Access Point ist eine Internetverbindung vorhanden| :heavy_check_mark: |
+| Der zweite Rasperry Pi Access Point erfüllt die oben aufgelisteten Punkte | :heavy_check_mark: |
 ___
 
 06 - Übergabe an den Betrieb
