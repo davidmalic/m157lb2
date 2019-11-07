@@ -78,6 +78,86 @@ ___
 ======
 
 ### Schritt 1
+Als erstes wird der Raspberry Pi auf den neusten stand gebracht und die Access-Point Software installiert.
+''''
+sudo apt-get update
+sudo apt-get upgrade
+'''''
+sudo apt-get install hostapd bridge-utils
+
+Schritt 2:
+Nun wird die Konfigurations Datei des Access-Points angepasst. Dazu welchseln wir in das verzeichniss: 
+sudo nano /etc/hostapd/hostapd.conf
+
+Jetzt fügen wir folgende Konfigurations-Datei ein und passen in der Zeile 1 die SSID und in der Zeile 2 das Passwort an.
+ssid=RaspberryAP
+wpa_passphrase=WLANPASSWORT
+
+driver=nl80211
+country_code=DE
+ieee80211d=1
+hw_mode=g
+beacon_int=100
+channel=9
+ieee80211n=1
+ht_capab=[SHORT-GI-20][DSSS_CCK-40]
+interface=wlan0
+ap_isolate=1
+bss_load_update_period=60
+disassoc_low_ack=1
+preamble=1
+wmm_enabled=1
+ignore_broadcast_ssid=0
+uapsd_advertisement_enabled=1
+auth_algs=1
+wpa=2
+wpa_pairwise=CCMP
+bridge=br0
+wpa_key_mgmt=WPA-PSK
+okc=0
+disable_pmksa_caching=1
+macaddr_acl=0
+
+Schritt 3:
+
+Aus Sicherheitsgründen wird die Berechtigung der Konfigurations-Datei so angepasst, das sie nur vom Owner gelesen und verändert werden kann.
+
+sudo chmod 600 /etc/hostapd/hostapd.conf
+
+Schritt 4:
+
+Nun wird die Konfigurations-Datei des Netzwerkes bearbeitet, dazu wechseln wir ins folgende Verzeichniss:
+
+sudo nano /etc/network/interfaces
+
+Jetzt passen wir die Konfigurations-Datei folgendermassen an:
+
+# WLAN
+auto wlan0
+allow-hotplug wlan0
+iface wlan0 inet manual
+wireless-power off
+
+# Netzwerkbrücke
+auto br0
+iface br0 inet dhcp
+bridge_ports eth0 wlan0 # build bridge
+bridge_fd 0 # no forwarding delay
+bridge_stp off # disable Spanning Tree Protocol
+
+Schritt 5:
+
+Zu gutter Letzt richten wir noch eine automatischen Start des AccessPoint ein, dazu wechseln wir ins folgende Verzeichniss: 
+
+sudo nano /etc/default/hostapd
+
+Und fügen folgende Textsequenz ein:
+
+RUN_DAEMON=yes
+DAEMON_CONF="/etc/hostapd/hostapd.conf"
+
+
+
 
 
 ___
